@@ -64,9 +64,6 @@
   const icons = (list) => list.map((p) => `<img src="${esc(p.img)}" alt="${esc(p.name)}" height="30" loading="lazy">`).join("");
   $("certifications").innerHTML = icons(S.certifications);
   $("payments").innerHTML = icons(S.payments);
-  $("socials").innerHTML = S.socials.map((s) =>
-    `<a href="${esc(s.url)}" target="_blank" rel="noopener"><img src="${esc(s.img)}" alt="${esc(s.name)}" width="36" height="36" loading="lazy"></a>`
-  ).join("");
 
   // ---------- Change Luck float ----------
   $("changeLuckClose").addEventListener("click", () => { $("changeLuck").hidden = true; });

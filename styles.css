@@ -127,7 +127,6 @@ ul { list-style: none; }
 .trust p { font-size: 14px; line-height: 1.55; }
 .icons { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
 .icons img { height: 30px; width: auto; }
-.icons.social img { width: 36px; height: 36px; }
 
 /* ---------- Keyword text ---------- */
 .seo { font-size: 14px; line-height: 1.65; color: #4a4a50; }

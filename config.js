@@ -116,15 +116,4 @@ window.SITE = {
     { name: "Mastercard", img: "assets/pay/mastercard.png" },
     { name: "iBayar", img: "assets/pay/ibayar.png" },
   ],
-
-  socials: [
-    { name: "Facebook", img: "assets/social/facebook.png", url: "https://www.facebook.com/judikiss88malaysiaab" },
-    { name: "X", img: "assets/social/x.png", url: "https://x.com/judikis88my" },
-    { name: "Telegram", img: "assets/social/telegram.png", url: "https://telegram.me/judikiss88wallet" },
-    { name: "Instagram", img: "assets/social/instagram.png", url: "https://www.instagram.com/judikiss88malaysiab/" },
-    { name: "YouTube", img: "assets/social/youtube.png", url: "https://www.youtube.com/@judikiss88malaysia" },
-    { name: "TikTok", img: "assets/social/tiktok.png", url: "https://www.tiktok.com/@judikis888malaysia" },
-    { name: "Heylink", img: "assets/social/heylink.png", url: "https://heylink.me/judikiss88my/" },
-    { name: "Email", img: "assets/social/email.png", url: "mailto:support@judikiss88l.com" },
-  ],
 };
