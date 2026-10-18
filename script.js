@@ -65,6 +65,15 @@
   $("certifications").innerHTML = icons(S.certifications);
   $("payments").innerHTML = icons(S.payments);
 
+  // ---------- Map (click to load) ----------
+  $("mapBtn").addEventListener("click", (e) => {
+    const frame = document.createElement("iframe");
+    frame.className = "map";
+    frame.title = "JUDIKISS88 location map";
+    frame.src = e.currentTarget.dataset.src;
+    e.currentTarget.replaceWith(frame);
+  });
+
   // ---------- Change Luck float ----------
   $("changeLuckClose").addEventListener("click", () => { $("changeLuck").hidden = true; });
 
