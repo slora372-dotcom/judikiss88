@@ -134,6 +134,18 @@ ul { list-style: none; }
 .seo h2 { font-size: 16px; color: var(--text); margin: 18px 0 6px; text-transform: none; }
 .seo h3 { font-size: 15px; color: var(--text); text-transform: none; letter-spacing: 0; }
 .seo a { color: #1a5fd0; text-decoration: underline; }
+/* FAQ page: each question is a tappable card. */
+.faq-page .crumbs { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+.faq-page .crumbs a { color: var(--muted); text-decoration: none; }
+.faq-list { display: grid; gap: 10px; margin: 14px 0; }
+.faq-list details { border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.faq-list summary { padding: 14px 16px; font-weight: 700; color: var(--text); cursor: pointer; list-style: none; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; float: right; color: var(--gold-dark); }
+.faq-list details[open] summary::after { content: "−"; }
+.faq-list details p { padding: 0 16px 14px; }
+.faq-page .auth-row { padding: 14px 0 6px; }
+
 /* Long sections fold to a preview; collapse.js adds the toggle button. */
 .collapsible { position: relative; max-height: 320px; overflow: hidden; }
 .collapsible:not(.open)::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: linear-gradient(rgba(255, 255, 255, 0), #fff); pointer-events: none; }
