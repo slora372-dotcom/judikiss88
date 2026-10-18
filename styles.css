@@ -145,6 +145,9 @@ ul { list-style: none; }
 .faq-list details[open] summary::after { content: "−"; }
 .faq-list details p { padding: 0 16px 14px; }
 .faq-page .auth-row { padding: 14px 0 6px; }
+.guide ol, .guide ul, .faq-page ul { padding-left: 20px; }
+.guide ul, .faq-page ul { list-style: disc; }
+.guide li, .faq-page li { margin-bottom: 6px; }
 
 /* Long sections fold to a preview; collapse.js adds the toggle button. */
 .collapsible { position: relative; max-height: 320px; overflow: hidden; }
