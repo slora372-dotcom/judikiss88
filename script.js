@@ -61,7 +61,7 @@
   });
 
   // ---------- Footer ----------
-  const icons = (list) => list.map((p) => `<img src="${esc(p.img)}" alt="${esc(p.name)}" height="30" loading="lazy">`).join("");
+  const icons = (list) => list.map((p) => `<img src="${esc(p.img)}" alt="${esc(p.name)}" width="${p.w}" height="30" loading="lazy">`).join("");
   $("certifications").innerHTML = icons(S.certifications);
   $("payments").innerHTML = icons(S.payments);
 

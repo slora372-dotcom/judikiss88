@@ -1,6 +1,7 @@
 // All site content lives here. Edit this file to change links, images
 // and text — no need to touch index.html, styles.css or script.js.
-// The first banner is also written into index.html so it shows instantly;
+// The first banner, hot games, categories, providers, check-in crowns and
+// footer icons are also written into index.html so they show instantly;
 // update both places if it changes.
 
 window.SITE = {
@@ -96,24 +97,24 @@ window.SITE = {
   ],
 
   certifications: [
-    { name: "BMM Testlabs", img: "assets/cert/cert1.png" },
-    { name: "iTech Labs", img: "assets/cert/cert2.png" },
-    { name: "GoDaddy verified and secured", img: "assets/cert/cert3.png" },
-    { name: "iovation", img: "assets/cert/cert4.png" },
-    { name: "ThreatMetrix", img: "assets/cert/cert5.png" },
+    { name: "BMM Testlabs", img: "assets/cert/cert1.png", w: 95 },
+    { name: "iTech Labs", img: "assets/cert/cert2.png", w: 30 },
+    { name: "GoDaddy verified and secured", img: "assets/cert/cert3.png", w: 102 },
+    { name: "iovation", img: "assets/cert/cert4.png", w: 104 },
+    { name: "ThreatMetrix", img: "assets/cert/cert5.png", w: 124 },
   ],
 
   payments: [
-    { name: "Bitcoin", img: "assets/pay/bitcoin.png" },
-    { name: "TRX", img: "assets/pay/trx.png" },
-    { name: "Ethereum", img: "assets/pay/ethereum.png" },
-    { name: "FPX", img: "assets/pay/fpx.png" },
-    { name: "Touch 'n Go eWallet", img: "assets/pay/tng.png" },
-    { name: "Boost", img: "assets/pay/boost.png" },
-    { name: "GrabPay", img: "assets/pay/grab.png" },
-    { name: "DuitNow", img: "assets/pay/duitnow.png" },
-    { name: "Visa", img: "assets/pay/visa.png" },
-    { name: "Mastercard", img: "assets/pay/mastercard.png" },
-    { name: "iBayar", img: "assets/pay/ibayar.png" },
+    { name: "Bitcoin", img: "assets/pay/bitcoin.png", w: 30 },
+    { name: "TRX", img: "assets/pay/trx.png", w: 30 },
+    { name: "Ethereum", img: "assets/pay/ethereum.png", w: 30 },
+    { name: "FPX", img: "assets/pay/fpx.png", w: 62 },
+    { name: "Touch 'n Go eWallet", img: "assets/pay/tng.png", w: 30 },
+    { name: "Boost", img: "assets/pay/boost.png", w: 30 },
+    { name: "GrabPay", img: "assets/pay/grab.png", w: 30 },
+    { name: "DuitNow", img: "assets/pay/duitnow.png", w: 34 },
+    { name: "Visa", img: "assets/pay/visa.png", w: 93 },
+    { name: "Mastercard", img: "assets/pay/mastercard.png", w: 51 },
+    { name: "iBayar", img: "assets/pay/ibayar.png", w: 65 },
   ],
 };
