@@ -201,3 +201,19 @@ ul { list-style: none; }
 @media (prefers-reduced-motion: reduce) {
   .marquee span { animation: none; padding-left: 12px; }
 }
+
+/* ---------- Promotions tables ---------- */
+.table-wrap { overflow-x: auto; margin: 10px 0; }
+.seo table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.seo th { background: linear-gradient(180deg, #f7e3a1, #d4a940); color: var(--text); text-align: left; padding: 8px; }
+.seo td { padding: 8px; border: 1px solid var(--line); vertical-align: top; }
+
+/* ---------- Guide card grid ---------- */
+.guide-grid-wrap { margin-top: 22px; }
+.home-grid { margin: 22px 10px 0; }
+.guide-grid-title, .seo .guide-grid-title { margin: 0 0 12px; font-size: 19px; font-weight: 800; color: var(--gold-dark); }
+.guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.guide-grid a, .seo .guide-grid a { display: block; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--text); text-decoration: none; box-shadow: 0 1px 4px rgba(0, 0, 0, .06); transition: border-color .15s, background .15s; }
+.guide-grid a:hover { border-color: var(--gold); background: #fffaf0; }
+.guide-grid b { display: block; font-size: 15px; color: var(--gold-dark); }
+.guide-grid span { display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.35; color: #5a5a60; }
