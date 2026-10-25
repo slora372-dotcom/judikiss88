@@ -9,24 +9,24 @@ window.SITE = {
 
   // Where the buttons go.
   links: {
-    login: "https://ppg668.cc/register.php?r=BMMTH",
-    register: "https://ppg668.cc/register.php?r=BMMTH",
-    history: "https://ppg668.cc/register.php?r=BMMTH",
-    promo: "https://ppg668.cc/register.php?r=BMMTH",
-    liveChat: "https://ppg668.cc/register.php?r=BMMTH",
-    settings: "https://ppg668.cc/register.php?r=BMMTH",
-    partnership: "https://ppg668.cc/register.php?r=BMMTH",
-    changeLuck: "https://ppg668.cc/register.php?r=BMMTH",
-    checkIn: "https://ppg668.cc/register.php?r=BMMTH",
-    downline: "https://ppg668.cc/register.php?r=BMMTH",
-    referralInfo: "https://ppg668.cc/register.php?r=BMMTH",
-    gameTips: "https://ppg668.cc/register.php?r=BMMTH",
-    games: "https://ppg668.cc/register.php?r=BMMTH",
+    login: "https://ppg668.cyou/register.php?r=BMMTH",
+    register: "https://ppg668.cyou/register.php?r=BMMTH",
+    history: "https://ppg668.cyou/register.php?r=BMMTH",
+    promo: "https://ppg668.cyou/register.php?r=BMMTH",
+    liveChat: "https://ppg668.cyou/register.php?r=BMMTH",
+    settings: "https://ppg668.cyou/register.php?r=BMMTH",
+    partnership: "https://ppg668.cyou/register.php?r=BMMTH",
+    changeLuck: "https://ppg668.cyou/register.php?r=BMMTH",
+    checkIn: "https://ppg668.cyou/register.php?r=BMMTH",
+    downline: "https://ppg668.cyou/register.php?r=BMMTH",
+    referralInfo: "https://ppg668.cyou/register.php?r=BMMTH",
+    gameTips: "https://ppg668.cyou/register.php?r=BMMTH",
+    games: "https://ppg668.cyou/register.php?r=BMMTH",
     telegram: "https://telegram.me/judikiss88wallet",
   },
 
   // Link that "Share" / "Copy Referral Link" hand out.
-  referralUrl: "https://ppg668.cc/register.php?r=BMMTH",
+  referralUrl: "https://ppg668.cyou/register.php?r=BMMTH",
 
   banners: [
     "assets/banners/banner-7.webp",
